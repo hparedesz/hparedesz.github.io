@@ -2,7 +2,7 @@ body {
     font: 400 14px 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
-    color: #727272;
+    color:white;
     font-size: 16px;
     font-weight: 300;
     line-height: 2.2;
@@ -587,7 +587,8 @@ h2.menu-item:after {
 
 .inline-menu li.active,
 .inline-menu li:hover {
-    color: #333;
+    color: rgb(180, 180, 180);
+    border-bottom:1px solid rgb(180, 180, 180);
 }
 
 .inline-menu li.active {
@@ -689,6 +690,7 @@ h2.menu-item:after {
 -------------------------------------------------------------------*/
 
 .content-blocks {
+    background:linear-gradient(to left, rgba(14, 13, 65, 0.99),rgba(22, 14, 46, 0.99));
     position: fixed;
     width: 70%;
     height: 100vh;
@@ -697,7 +699,6 @@ h2.menu-item:after {
     overflow-y: scroll;
     top: 100%;
     left: 30%;
-    background: #FFF;
     transition: opacity 0.7s ease-out;
     z-index: 1;
     -webkit-overflow-scrolling: touch;
@@ -754,7 +755,7 @@ h2.menu-item:after {
 .block-title {
     font-size: 24px;
     text-transform: uppercase;
-    color: #333;
+    color:rgb(232, 255, 101);
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
@@ -950,10 +951,11 @@ h2.menu-item:after {
     padding-top: 20px;
     margin: 20px 0;
     overflow: auto;
+    color:white;
 }
 
 .info-list span {
-    color: #333;
+    color:rgb(232, 255, 101);
     font-weight: 400;
     margin-right: 5px;
 }
@@ -996,7 +998,7 @@ h2.menu-item:after {
 }
 
 .progress-bar-label {
-    color: #333;
+    color: rgb(90, 190, 115);
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -1115,17 +1117,19 @@ h2.menu-item:after {
 .service {
     text-align: center;
     padding-top: 25px;
+
 }
 
 .service h4 {
     margin: 10px 0;
     font-size: 14px;
+    color:rgb(232, 255, 101);
 }
 
 .service-icon {
     font-size: 30px;
     margin-bottom: 10px;
-    color: #666;
+    color:white;
 }
 
 .awards {
@@ -1334,7 +1338,7 @@ h4.package {
 
 .filters ul li.active,
 .filters ul li:hover {
-    color: #333;
+    color:rgb(232, 255, 101);
 }
 
 .filters ul li:first-child {
@@ -1952,6 +1956,10 @@ h4.package {
 .contact-details,
 .contact-icon {
     display: table-cell;
+}
+
+.contact-details h5{
+    color:rgb(232, 255, 101);
 }
 
 .contact-details h5,
